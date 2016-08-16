@@ -1,12 +1,12 @@
-# _{Application Name}_
+# _Word Puzzle_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A webpage that manipulates the user input into a puzzle version of itself, 8-16-16_
 
-#### By _**Caleb Stevenson**_
+#### By _**Caleb Stevenson &amp; Chance Neff**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This wedpage will use html, css and JavaScript to take user input and remove all the vowels and return and display the new manipulated sentence_
 
 ## Setup/Installation Requirements
 
@@ -22,15 +22,17 @@ _None yet_
 ## Support and contact details
 
 * _Caleb Stevenson: cgrahamstevenson@gmail.com_
+* _Chance Neff: crneff84@gmail.com_
 
 ## Technologies Used
 
 _HTML,
 CSS,
-JS,_
+JS,
+jQuery_
 
 ### License
 
 *This webpage is licensed under the GPL license.*
 
-Copyright (c) 2016 **_Caleb Stevenson_**
+Copyright (c) 2016 **_Caleb Stevenson &amp; Chance Neff_**
