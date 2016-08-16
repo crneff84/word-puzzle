@@ -3,7 +3,7 @@ var puzzleSentence = function(sentence) {
   for (var i = 0; i < letterArray.length; i +=1) {
     if (letterArray[i] === "a" || letterArray[i] === "e" || letterArray[i] === "i" || letterArray[i] === "o" || letterArray[i] === "u") {
       letterArray.splice(i, 1, "-");
-      var puzzledSentence = letterArray.join(" ");
+      var puzzledSentence = letterArray.join("");
     }
   };
   return puzzledSentence;
@@ -20,6 +20,8 @@ $(document).ready(function(){
     var userInput = $("#sentence").val();
     var outPut = puzzleSentence(userInput);
     $("#puzzled-sentence").empty().append(outPut);
+    $("#title").hide();
+    $("#puzzled-title").show();
     $("#blanks").hide();
   });
 });

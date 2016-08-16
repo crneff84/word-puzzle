@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 4em;
+  background-image: url(../bkrndpic.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: lightgrey;
+}
+
+h1,
+h2 {
+  font-family: 'Uncial Antiqua', cursive;
+}
+
+#puzzled-title {
+  display: none;
+}
