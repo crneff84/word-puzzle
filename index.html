@@ -8,6 +8,21 @@
     <title></title>
   </head>
   <body>
-
+    <div class="container">
+      <h1 class="jumbotron">Word Puzzle</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="sentence">Enter the sentence you want to turn into a puzzle:</label>
+            <input id="sentence" type="text" class="form-control">
+          </div>
+          <button type="submit" name="button" class="btn btn-success">SUBMIT</button>
+        </form>
+      </div>
+      <div id="output">
+        <h1>PUZZLED SENTENCE BELOW</h1>
+        <h2><span id="puzzled-sentence"></span></h2>
+      </div>
+    </div>
   </body>
 </html>
